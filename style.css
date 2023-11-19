@@ -1,0 +1,78 @@
+body{
+    text-align: center;
+    background-color: black;
+    color: white;
+}
+
+.btn{
+    height: 200px;
+    width: 200px;
+    border: 3px solid white;
+    border-radius: 5%;
+    margin: 1.8rem;
+}
+
+.btn-container{
+    display: flex;
+    justify-content: center;
+}
+
+.btn-1{
+    border-top-left-radius: 100%;
+    background: rgb(63, 221, 63);
+}
+.btn-2{
+    border-top-right-radius: 100%;
+    background: rgb(247, 3, 3);
+}
+.btn-3{
+    border-bottom-left-radius: 100%;
+    background: rgb(225, 225, 44);
+}
+.btn-4{
+    border-bottom-right-radius: 100%;
+    background: rgb(64, 64, 238);
+}
+
+.start{
+    width: 200px;
+    height: 50px;
+    background-color: rgb(6, 243, 243);
+    border-radius: 20px;
+    font-size: 1.5rem;
+    letter-spacing: 3px;
+}
+
+.flash{
+    background-color: white;
+}
+
+.userFlash{
+    background-color: #9d00ff;
+}
+
+@media screen and (max-width:525px) {
+    .btn{
+        height: 150px;
+        width: 150px;
+    }
+}
+@media screen and (max-width:405px) {
+    .btn{
+        height: 100px;
+        width: 100px;
+    }
+}
+@media screen and (max-width:300px) {
+    .btn{
+        height: 80px;
+        width: 80px;
+        margin: 1rem;
+    }
+}
+@media screen and (max-width:220px) {
+    .btn{
+        height: 50px;
+        width: 50px;
+    }
+}
